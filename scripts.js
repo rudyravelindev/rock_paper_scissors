@@ -6,7 +6,10 @@ function getComputerChoice(){
 }
 console.log(getComputerChoice());
 
+// Get the Human choice
+function getHumanChoice(){
+    let humanChoice = prompt('Hello HUMAN: please choose "rock, paper or scissors"');
+    return humanChoice;
 
-
-
-// Get the usr input
+}
+console.log(getHumanChoice());
