@@ -15,4 +15,6 @@ function getHumanChoice(str){
 }
 console.log(getHumanChoice());
 
-
+// Creating the two variable in the global scope.
+let humanScore = 0;
+let computerScore = 0;
