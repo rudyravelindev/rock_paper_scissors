@@ -8,7 +8,7 @@ function getComputerChoice(str){
 console.log(getComputerChoice());
 
 
-// Get the humna choice
+// Get the human choice
 function getHumanChoice(str){
     let humanChoice = prompt("Please enter: 'rock', 'paper', 'scissors'")
     return humanChoice;
