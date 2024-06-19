@@ -4,7 +4,6 @@ function getComputerChoice(){
     let computerChoice = choice[(Math.floor(Math.random() * choice.length))];
     return computerChoice;
 }
-// console.log(getComputerChoice());
 
 // Get the human choice
 function getHumanChoice(){
@@ -12,8 +11,6 @@ function getHumanChoice(){
     let lowerCaseHumanChoice = humanChoice.toLowerCase();
     return lowerCaseHumanChoice;
 }
-// console.log(getHumanChoice());
-
 
 
 // Creating the two variable in the global scope.
@@ -45,8 +42,6 @@ function playRound(humanChoice, computerChoice){
 
 const humanSelection = getHumanChoice();
 const computerSelection = getComputerChoice();
-
-// playRound(humanSelection, computerSelection);
 
 // Display choices
 console.log('Computer choice:', computerSelection);
