@@ -6,3 +6,11 @@ function getComputerChoice(str){
 }
 
 console.log(getComputerChoice());
+
+function getHumanChoice(str){
+    let humanChoice = prompt("Please enter: 'rock', 'paper', 'scissors'")
+    return humanChoice;
+}
+console.log(getHumanChoice());
+
+
