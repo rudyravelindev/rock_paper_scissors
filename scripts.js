@@ -49,8 +49,9 @@ const computerSelection = getComputerChoice();
 // playRound(humanSelection, computerSelection);
 
 // Display choices
-console.log('Human choice:', humanSelection);
 console.log('Computer choice:', computerSelection);
+console.log('Human choice:', humanSelection);
+
 
 // Determine result and log it
 const result = playRound(humanSelection, computerSelection);
