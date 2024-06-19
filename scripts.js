@@ -11,10 +11,17 @@ console.log(getComputerChoice());
 // Get the human choice
 function getHumanChoice(str){
     let humanChoice = prompt("Please enter: 'rock', 'paper', 'scissors'")
-    return humanChoice;
+    let lowerCaseHumanChoice = humanChoice.toLowerCase();
+    return lowerCaseHumanChoice;
 }
 console.log(getHumanChoice());
 
 // Creating the two variable in the global scope.
 let humanScore = 0;
 let computerScore = 0;
+
+
+// Single play function
+function playRound(humanChoice, computerChoice){
+    
+}
